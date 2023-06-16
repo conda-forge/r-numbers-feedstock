@@ -1,11 +1,11 @@
-About r-numbers
-===============
+About r-numbers-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-numbers-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=numbers
 
 Package license: GPL (>= 3)
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-numbers-feedstock/blob/main/LICENSE.txt)
 
 Summary:  Provides number-theoretic functions for factorization, prime  numbers, twin primes, primitive roots, modular logarithm and inverses, extended GCD, Farey series and continuous fractions. Includes Legendre and Jacobi symbols, some divisor functions, Euler's Phi function, etc.
 
