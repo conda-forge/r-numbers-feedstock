@@ -1,4 +1,4 @@
-{% set version = "0.8-5" %}
+{% set version = "0.9-2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/numbers_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/numbers/numbers_{{ version }}.tar.gz
-  sha256: 77d5dedb7f953689ab9e89c14e673c0c8f644c8b392fab4ee4fb793930ad220b
+  sha256: 01e3150612a16eae2747f141f31f9edcae9f9f5df0136a209bf0cd866f5affcd
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
